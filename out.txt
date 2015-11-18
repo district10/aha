@@ -1,0 +1,12 @@
+1,4c1,3
+< What do you mean?（这行被删除）
+< When you nod your head yes（单词改变）
+< But you wanna say no（单词添加）
+< What do you mean?（删除单词）
+---
+> When you nod your haydes（单词改变）
+> But you wanna say me no（单词添加）
+> What you mean?（删除单词）
+5a5
+> But you tell me to go（这行新添加）
+\ No newline at end of file

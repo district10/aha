@@ -40,7 +40,7 @@ git diff --color-words --no-index _a.txt _b.txt | aha > diffed.md
 输出 `diffed.md`:
 
 ```html
-<div class="diffed"><pre>
+<pre class="diffed">
 <span style="font-weight:bold;">diff --git a/_a.txt b/_b.txt</span>
 <span style="font-weight:bold;">index 0cb3b2a..d540f3f 100644</span>
 <span style="font-weight:bold;">--- a/_a.txt</span>
@@ -51,5 +51,32 @@ But you wanna say <span style="color:green;">me</span> no（单词添加）
 What<span style="color:red;">do</span> you mean?（删除单词）
 When you don't want me to move（这行不变）
 <span style="color:green;">But you tell me to go（这行新添加）</span>
-</pre></div>
+</pre>
 ```
+
+加点 CSS：
+
+```css
+pre {
+    border: 1px dotted gray;
+    background-color: #ececec;
+    color: #1111111;
+    padding: 0.5em;
+    word-wrap: normal;
+    word-break: break-all;
+    white-space: pre;
+    overflow: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+pre.diffed {
+    background-color: white;
+    border: 1px dotted #f8bd0b;
+    font-size: 90%;
+    font-family: Consolas, Inpact, Arial, Hiragino, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, STXihei, Heiti, sans-serif;
+}
+```
+
+在我网站上的效果：
+

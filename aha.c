@@ -117,7 +117,7 @@ int main(int argc,char* args[])
     char word_wrap=0;
     char no_header=0;
     
-    printf("<p class=\"diffed\"><pre>\n");
+    printf("<pre class=\"diffed\">\n");
 
     //Begin of Conversion
     unsigned int c;
@@ -491,7 +491,7 @@ int main(int argc,char* args[])
     if ((fc!=-1) || (bc!=-1) || (ul!=0) || (bo!=0) || (bl!=0))
         printf("</span>\n");
 
-    printf("</pre></p>\n");
+    printf("</pre>\n");
 
     if (fp!=stdin)
         fclose(fp);
