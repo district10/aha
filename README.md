@@ -78,5 +78,6 @@ pre.diffed {
 }
 ```
 
-在我网站上的效果：
+在我网站（[Pretty Diff | 听歌学英语](http://tangzx.qiniudn.com/post-0062-pretty-diff.html)）上的效果：
 
+![[Pretty Diff | 听歌学英语](http://tangzx.qiniudn.com/post-0062-pretty-diff.html)](http://gnat.qiniudn.com/diffed/diffed.png)

@@ -1,12 +1,10 @@
-1,4c1,3
-< What do you mean?（这行被删除）
-< When you nod your head yes（单词改变）
-< But you wanna say no（单词添加）
-< What do you mean?（删除单词）
----
-> When you nod your haydes（单词改变）
-> But you wanna say me no（单词添加）
-> What you mean?（删除单词）
-5a5
-> But you tell me to go（这行新添加）
-\ No newline at end of file
+[1mdiff --git a/_a.txt b/_b.txt[m
+[1mindex 0cb3b2a..d540f3f 100644[m
+[1m--- a/_a.txt[m
+[1m+++ b/_b.txt[m
+[36m@@ -1,5 +1,5 @@[m
+[31mWhat do you mean?（这行被删除）[mWhen you nod your [31mhead yes（单词改变）[m[32mhaydes（单词改变）[m
+But you wanna say [32mme[m no（单词添加）
+What[31mdo[m you mean?（删除单词）
+When you don't want me to move（这行不变）[m
+[32mBut you tell me to go（这行新添加）[m
