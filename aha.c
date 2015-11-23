@@ -292,7 +292,7 @@ int main(int argc,char* args[])
                         case    1: if (stylesheet)
                                              printf("red ");
                                          else
-                                             printf("color:red;");
+                                             printf("color:red;text-decoration:line-through;");
                                          break; //Red
                         case    2: if (stylesheet)
                                              printf("green ");
